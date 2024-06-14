@@ -1,5 +1,5 @@
 const randomMessage = () => {
-    let messages = ['youre beautiful', 'youre amazing', 'youre strong']
+    let messages = ['youre beautiful', 'youre not amazing', 'youre strong']
 
     const randomGenerator = Math.floor(Math.random() * messages.length);
     if (randomGenerator === 0){
